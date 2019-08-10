@@ -19,7 +19,7 @@
     <context:component-scan base-package="com.itke.dao">
     </context:component-scan>
 
-    <context:property-placeholder location="classpath:db.properties.Oracle"/>
+    <context:property-placeholder location="classpath:db.properties"/>
     <!-- 配置连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}"/>
@@ -37,7 +37,7 @@
                 <bean class="com.github.pagehelper.PageInterceptor">
                     <property name="properties">
                         <props>
-                            <prop key="helperDialect">oracle</prop>
+                            <prop key="helperDialect">mysql</prop>
                             <prop key="reasonable">true</prop>
                         </props>
                     </property>
