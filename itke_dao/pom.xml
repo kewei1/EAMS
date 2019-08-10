@@ -11,5 +11,12 @@
 
     <artifactId>itke_dao</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.itke</groupId>
+            <artifactId>itke_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
