@@ -13,6 +13,10 @@ import java.util.List;
 @Service
 @Transactional
 public class OrdersServiceImpl implements IOrdersService {
+    @Override
+    public Orders findById(String ordersId) {
+        return ordersDao.findById(ordersId);
+    }
 
     @Autowired
     private IOrdersDao ordersDao;
