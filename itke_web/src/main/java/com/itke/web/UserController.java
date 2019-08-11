@@ -22,8 +22,6 @@ public class UserController {
     public ModelAndView findAll2( @RequestParam(name = "page", required = true, defaultValue = "1") int page, @RequestParam(name = "size", required = true, defaultValue = "4") int size) throws Exception {
         List<UserInfo> us = userService.findAll(page, size);
         ModelAndView mv = new ModelAndView();
-
-
         //PageInfo就是一个分页Bean
         PageInfo pageInfo=new PageInfo(us);
         mv.addObject("pageInfo",pageInfo);
@@ -31,6 +29,15 @@ public class UserController {
         return mv;
     }
 
+    @RequestMapping("/Edit.do")
+    public  String Edit(){
+        return "user-add" ;
+    }
 
+    @RequestMapping("/save.do")
+    public String save(UserInfo user) throws Exception {
+        userService.save(user);
+        return "redirect:findAll.do";
+    }
 
 }
