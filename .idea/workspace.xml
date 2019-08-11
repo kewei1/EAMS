@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ab2532-c293-4130-a6ca-43975f058970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/ITravellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IuserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itke_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-list.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,10 +53,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java">
+        <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/user-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="219">
+              <caret line="154" column="68" selection-start-line="154" selection-start-column="59" selection-end-line="154" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,24 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/OrdersServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IuserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="697">
               <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,32 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Traveller.java">
+        <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IMemberDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="680">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +110,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/ITravellerDao.java">
+        <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="7310">
+              <caret line="430" column="9" selection-start-line="423" selection-start-column="8" selection-end-line="430" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,30 +152,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IProductDao.java">
+        <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/OrdersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="3621">
+              <caret line="213" column="75" selection-start-line="213" selection-start-column="75" selection-end-line="213" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -203,8 +201,6 @@
         <option value="$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-list.jsp" />
         <option value="$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-add.jsp" />
         <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/ProductController.java" />
         <option value="$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-list.jsp" />
         <option value="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/OrdersController.java" />
         <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java" />
@@ -212,9 +208,18 @@
         <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java" />
         <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/ITravellerDao.java" />
-        <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java" />
         <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IMemberDao.java" />
         <option value="$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp" />
+        <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Role.java" />
+        <option value="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IuserService.java" />
+        <option value="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/ProductController.java" />
+        <option value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/itke_web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/UserController.java" />
+        <option value="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/UserInfo.java" />
       </list>
     </option>
   </component>
@@ -244,6 +249,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EAMS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EAMS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="itke_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -262,8 +276,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="28" />
+    <option name="x" value="12" />
+    <option name="y" value="27" />
     <option name="width" value="1239" />
     <option name="height" value="1038" />
   </component>
@@ -320,37 +334,149 @@
         </subPane>
       </pane>
       <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="itke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="itke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="itke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="itke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="itke_domain" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="itke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -406,13 +532,6 @@
               <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="EAMS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="itke_web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -432,6 +551,24 @@
           <expand>
             <path>
               <item name="EAMS" type="58d84e3e:PackageViewProjectNode" />
+              <item name="itke_dao" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="58d84e3e:PackageViewProjectNode" />
+              <item name="itke_dao" type="616d4139:PackageViewModuleNode" />
+              <item name="com.itke.dao" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="58d84e3e:PackageViewProjectNode" />
+              <item name="itke_domain" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="58d84e3e:PackageViewProjectNode" />
+              <item name="itke_domain" type="616d4139:PackageViewModuleNode" />
+              <item name="com.itke.domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="EAMS" type="58d84e3e:PackageViewProjectNode" />
               <item name="itke_web" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
@@ -449,7 +586,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -465,11 +602,11 @@
       <recent name="com.itke.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\Mywork\EAMS\itke_dao\src\main\java\com\itke\dao" />
+      <recent name="H:\Mywork\EAMS\itke_domain\src\main\java\com\itke\domain" />
       <recent name="H:\Mywork\EAMS\itke_web\src\main\webapp\pages" />
+      <recent name="H:\Mywork\EAMS\itke_dao\src\main\java\com\itke\dao" />
       <recent name="H:\Mywork\EAMS\itke_web\src\main\resources" />
       <recent name="H:\Mywork\EAMS\itke_web\src\main\webapp" />
-      <recent name="H:\Mywork\EAMS\itke_web\src\main\java\com\itke\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -712,7 +849,10 @@
       <workItem from="1565421561524" duration="4838000" />
       <workItem from="1565426540688" duration="10823000" />
       <workItem from="1565488345778" duration="6021000" />
-      <workItem from="1565494488803" duration="3472000" />
+      <workItem from="1565494488803" duration="4545000" />
+      <workItem from="1565502830190" duration="28000" />
+      <workItem from="1565502882804" duration="3536000" />
+      <workItem from="1565506452420" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="第一次添加">
       <created>1565418075311</created>
@@ -742,11 +882,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565495164338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="订单详情功能">
+      <created>1565501931789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565501931789</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32508000" />
+    <option name="totallyTimeSpent" value="37782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,7 +908,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19967663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2821342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -771,7 +918,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0979021" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.052447554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,7 +935,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23605497" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20533548" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
@@ -814,7 +961,8 @@
     <MESSAGE value="产品和订单完善 OracleBug待解决" />
     <MESSAGE value="产品主键UUID生成" />
     <MESSAGE value="商品分页功能  PageHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品分页功能  PageHelper" />
+    <MESSAGE value="订单详情功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单详情功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,21 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-list.jsp" />
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -965,64 +1099,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/header.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="58" column="22" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,90 +1119,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java">
+    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IRoleDao.java" />
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Traveller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3859">
+          <caret line="227" column="22" selection-start-line="227" selection-start-column="22" selection-end-line="227" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="289">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/ITravellerDao.java">
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-3980">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" column="80" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1136,10 +1168,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp">
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IOrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/ITravellerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/Traveller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/IuserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IOrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/orders-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7310">
+          <caret line="430" column="9" selection-start-line="423" selection-start-column="8" selection-end-line="430" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_service/src/main/java/com/itke/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="213" column="75" selection-start-line="213" selection-start-column="75" selection-end-line="213" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_dao/src/main/java/com/itke/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/java/com/itke/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="154" column="68" selection-start-line="154" selection-start-column="59" selection-end-line="154" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itke_domain/src/main/java/com/itke/domain/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
         </state>
       </provider>
     </entry>
