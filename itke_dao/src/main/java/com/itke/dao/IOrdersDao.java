@@ -24,6 +24,5 @@ public interface IOrdersDao {
             @Result(property = "orderDesc",column = "orderDesc"),
             @Result(property = "product",column = "productId",javaType = Product.class,one = @One(select = "com.itke.dao.IProductDao.findById")),
     })
-
     public List<Orders> findAll() throws Exception;
 }

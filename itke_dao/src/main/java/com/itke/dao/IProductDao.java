@@ -1,6 +1,5 @@
 package com.itke.dao;
 
-
 import com.itke.domain.Product;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;

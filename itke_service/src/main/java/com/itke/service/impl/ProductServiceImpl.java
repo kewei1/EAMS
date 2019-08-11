@@ -1,6 +1,7 @@
 package com.itke.service.impl;
 
 
+import com.github.pagehelper.PageHelper;
 import com.itke.dao.IProductDao;
 import com.itke.domain.Product;
 import com.itke.service.IProductService;
@@ -18,6 +19,7 @@ public class ProductServiceImpl implements IProductService {
     @Autowired
     private IProductDao productDao;
 
+
     @Override
     public void save(Product product) {
         product.setId(UUID.randomUUID().toString().substring(0,18));
@@ -26,7 +28,9 @@ public class ProductServiceImpl implements IProductService {
     }
 
     @Override
-    public List<Product> findAll() throws Exception{
+    public List<Product> findAll(int page, int size) throws Exception {
+        //参数pageNum 是页码值   参数pageSize 代表是每页显示条数
+        PageHelper.startPage(page, size);
         return productDao.findAll();
     }
 }
