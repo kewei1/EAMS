@@ -1,6 +1,7 @@
 package com.itke.service.impl;
 
 
+import com.github.pagehelper.PageHelper;
 import com.itke.dao.IPermissionDao;
 import com.itke.domain.Permission;
 import com.itke.service.IPermissionService;
@@ -17,6 +18,17 @@ public class PermissionServiceImpl implements IPermissionService {
     private IPermissionDao permissionDao;
 
     @Override
+    public void deleteById(String id) throws Exception {
+        permissionDao.deleteFromRole_Permission(id);
+        permissionDao.deleteById(id);
+    }
+
+    @Override
+    public Permission findById(String id) throws Exception {
+        return permissionDao.findById(id);
+    }
+
+    @Override
     public void save(Permission permission) throws Exception{
         permission.setId(UUID.randomUUID().toString().substring(0,18));
         permissionDao.save(permission);
@@ -24,7 +36,8 @@ public class PermissionServiceImpl implements IPermissionService {
 
 
     @Override
-    public List<Permission> findAll() throws Exception{
+    public List<Permission> findAll(int page, int size) throws Exception{
+        PageHelper.startPage(page, size);
         return permissionDao.findAll();
     }
 }

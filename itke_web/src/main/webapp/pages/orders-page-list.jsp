@@ -195,11 +195,11 @@
 								<div class="form-group form-inline">
 									<div class="btn-group">
 
-										<button type="button" class="btn btn-default" title="删除">
+										<button type="button" class="btn btn-default" title="删除" onclick="dodelete()">
 											<i class="fa fa-trash-o"></i> 删除
 										</button>
 
-										<button type="button" class="btn btn-default" title="刷新">
+										<button type="button" class="btn btn-default" title="刷新" >
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -237,7 +237,7 @@
 									<c:forEach items="${pageInfo.list}" var="orders">
 
 										<tr>
-											<td><input name="ids" type="checkbox"></td>
+											<td><input name="ids" type="checkbox"  ></td>
 											<td>${orders.id }</td>
 											<td>${orders.orderNum }</td>
 											<td>${orders.product.productName }</td>
@@ -421,6 +421,17 @@
 	<script
 		src="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 	<script>
+
+        function  dodelete(){
+
+            var flag = confirm("是否确定删除?");
+
+            if(flag){
+
+            }
+        }
+
+
 		function changePageSize() {
 			//获取下拉框的值
 			var pageSize = $("#changePageSize").val();
