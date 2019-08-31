@@ -12,7 +12,7 @@ public interface IPermissionDao {
 
     //查询与role关联的所有的权限
     @Select("select * from permission where id in (select permissionId from role_permission where roleId=#{id} )")
-    public List<Permission> findPermissionByRoleId(String id) throws Exception;
+     List<Permission> findRoleByUserId(String id) throws Exception;
 
 
     @Select("select * from permission")
