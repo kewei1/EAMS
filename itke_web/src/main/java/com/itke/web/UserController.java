@@ -6,6 +6,7 @@ import com.itke.domain.Role;
 import com.itke.domain.UserInfo;
 import com.itke.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -72,6 +73,7 @@ public class UserController {
     }
 
     @RequestMapping("/save.do")
+    @Secured("ROLE_USER")
     public String save(UserInfo user) throws Exception {
         userService.save(user);
         return "redirect:findAll.do";
