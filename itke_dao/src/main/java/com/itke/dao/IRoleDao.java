@@ -14,9 +14,9 @@ public interface IRoleDao {
             @Result(id = true, property = "id", column = "id"),
             @Result(property = "roleName", column = "roleName"),
             @Result(property = "roleDesc", column = "roleDesc"),
-            @Result(property = "permissions",column = "id",javaType = List.class,many = @Many(select = "com.itke.dao.IPermissionDao.findRoleByUserId"))
+            @Result(property = "permissions",column = "id",javaType = java.util.List.class,many = @Many(select = "com.itke.dao.IPermissionDao.findPermissionByRoleId"))
     })
-     List<Role> findRoleByUserId(String userId) throws Exception;
+    public List<Role> findRoleByUserId(String userId) throws Exception;
 
     @Select("select * from role")
     List<Role> findAll() throws Exception;
@@ -29,7 +29,7 @@ public interface IRoleDao {
             @Result(id = true,property = "id",column = "id"),
             @Result(property = "roleName",column = "roleName"),
             @Result(property = "roleDesc",column = "roleDesc"),
-            @Result(property = "permissions",column = "id",javaType = List.class,many = @Many(select = "com.itke.dao.IPermissionDao.findPermissionByRoleId"))
+            @Result(property = "permissions",column = "id",javaType = java.util.List.class,many = @Many(select = "com.itke.dao.IPermissionDao.findPermissionByRoleId"))
     })
     Role findById(String roleId);
 

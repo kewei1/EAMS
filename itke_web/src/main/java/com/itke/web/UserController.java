@@ -6,13 +6,11 @@ import com.itke.domain.Role;
 import com.itke.domain.UserInfo;
 import com.itke.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.annotation.security.RolesAllowed;
 import java.util.List;
 
 
@@ -25,7 +23,7 @@ public class UserController {
 
 
     //给用户添加角色
-    @RolesAllowed({"USER"})
+   // @RolesAllowed({"USER"})
     @RequestMapping("/addRoleToUser.do")
     public String addRoleToUser(@RequestParam(name = "userId", required = true) String userId, @RequestParam(name = "ids", required = true) String[] roleIds) {
         userService.addRoleToUser(userId, roleIds);
@@ -73,7 +71,7 @@ public class UserController {
     }
 
     @RequestMapping("/save.do")
-    @Secured("ROLE_USER")
+//    @Secured("ROLE_USER")
     public String save(UserInfo user) throws Exception {
         userService.save(user);
         return "redirect:findAll.do";
