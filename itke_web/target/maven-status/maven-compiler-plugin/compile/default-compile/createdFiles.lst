@@ -1,0 +1,5 @@
+com\itke\web\UserController.class
+com\itke\web\RoleController.class
+com\itke\web\PermissionController.class
+com\itke\web\OrdersController.class
+com\itke\web\ProductController.class
